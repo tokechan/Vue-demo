@@ -33,13 +33,17 @@ async function fetchCountries() {
 </template>
 
 <style scoped>
-h1{
+h1 {
   height: 1em;
   padding: 1em;
   will-change: filter;
   transition: filter 300ms;
   filter: drop-shadow(0 0 2em rgb(183, 242, 124));
 }
+article {
+  background-color: #00c1ffc2;
+}
+
 button:hover {
   filter: drop-shadow(0 0 2em #95fd17aa);
 }
